@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Molewa Butchery - Manage Orders</title>
+    <link rel="stylesheet" href="design.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <img src="Images/Logo.jpg" alt="Molewa Butchery Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="#manage-orders">Manage Orders</a></li>
+                <li><a href="contact.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr class="header-line">
+    <main>
+        <section id="manage-orders" class="main">
+            <h2>Manage Your Orders</h2>
+            <form id="order-form">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="contact">Contact Number:</label>
+                    <input type="text" id="contact" name="contact" required>
+                </div>
+                <div>
+                    <label for="product">Product:</label>
+                    <input type="text" id="product" name="product" required>
+                </div
+                                <div>
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" id="quantity" name="quantity" required>
+                </div>
+                <div>
+                    <label for="instructions">Special Instructions:</label>
+                    <textarea id="instructions" name="instructions"></textarea>
+                </div>
+                <div>
+                    <input type="radio" id="delivery" name="order_type" value="delivery">
+                    <label for="delivery">Delivery</label>
+                </div>
+                <div>
+                    <input type="radio" id="pickup" name="order_type" value="pickup">
+                    <label for="pickup">Pickup</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms">I agree to the terms and conditions</label>
+                </div>
+                <button type="submit">Submit Order</button>
+            </form>
+            <div id="order-history">
+                <h3>Previous Orders</h3>
+                <!-- Order history will be populated here -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Contact Information</p>
+        <div class="social-media">
+            <a href="https://www.facebook.com/molewabeef" target="_blank" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/molewabeef" target="_blank" class="fa fa-twitter"></a>
+            <a href="https://www.instagram.com/molewabeef" target="_blank" class="fa fa-instagram"></a>
+        </div>
+       <p>Phone: <a href="tel:01234567890">012 (234) 567-890</a></p>
+        <p>Email: <a href="mailto:info@molewabutcher.com">info@molewabutcher.com</a></p>
+        <p>Address:Falala, Soshanguve-F, South Africa</p>
+        <p>&copy; 2024 Molewa Butchery</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

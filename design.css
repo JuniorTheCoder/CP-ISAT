@@ -1,0 +1,260 @@
+/* Ensure the background image covers the whole viewport */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('Images/Outside.jpg') no-repeat center center fixed; /* Replace with the actual path to your background image */
+    background-size: cover;
+    color: #fff; /* Set default font color to white */
+}
+
+/* Header styling */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better visibility */
+}
+
+/* Logo styling */
+.logo {
+    max-width: 150px;
+}
+
+/* Navigation styling */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Set font color to white */
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 1px solid #fff; /* Border color to match the font */
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for buttons */
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.3); /* Light color on hover */
+    color: #333; /* Darker text on hover */
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent background to enhance readability */
+    border-radius: 10px; /* Optional: Rounded corners for main content */
+}
+
+/* Centering main headings and texts */
+h1 {
+    text-align: center;
+    color: palevioletred; /* Ensure headings are visible */
+    font-size: 36px; /* Adjust font size as needed */
+}
+
+/* Product section styling */
+section {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7); /* Darker background for product section */
+    border-radius: 10px; /* Rounded corners */
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the product items */
+}
+
+section ul li {
+    margin: 15px;
+    text-align: center; /* Center text for product links */
+}
+
+section ul li img {
+    width: 150px; /* Set a fixed width for product images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners for images */
+}
+
+/* Footer styling */
+footer {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent footer */
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+    color: #fff; /* White text in footer */
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.footer-links div {
+    margin: 0 15px; /* Spacing between footer links */
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff; /* White text for footer links */
+    font-weight: bold;
+}
+
+.footer-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+} ```css
+/* Ensure the background image covers the whole viewport */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('Images/Outside.jpg') no-repeat center center fixed; /* Replace with the actual path to your background image */
+    background-size: cover;
+    color: #fff; /* Set default font color to white */
+}
+
+/* Header styling */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better visibility */
+}
+
+/* Logo styling */
+.logo {
+    max-width: 150px;
+}
+
+/* Navigation styling */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Set font color to white */
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 1px solid #fff; /* Border color to match the font */
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for buttons */
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.3); /* Light color on hover */
+    color: #333; /* Darker text on hover */
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent background to enhance readability */
+    border-radius: 10px; /* Optional: Rounded corners for main content */
+}
+
+/* Centering main headings and texts */
+h1 {
+    text-align: center;
+    color: palevioletred; /* Ensure headings are visible */
+    font-size: 36px; /* Adjust font size as needed */
+}
+
+/* Product section styling */
+section {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7); /* Darker background for product section */
+    border-radius: 10px; /* Rounded corners */
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the product items */
+}
+
+section ul li {
+    margin: 15px;
+    text-align: center; /* Center text for product links */
+}
+
+section ul li img {
+    width: 150px; /* Set a fixed width for product images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners for images */
+}
+
+/* Footer styling */
+footer {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent footer */
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+    color: #fff; /* White text in footer */
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.footer-links div {
+    margin: 0 15px; /* Spacing between footer links */
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff; /* White text for footer links */
+    font-weight: bold;
+}
+
+.footer-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
